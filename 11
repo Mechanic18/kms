@@ -1,0 +1,12 @@
+
+print("how many Kms do you to convert?")
+
+Kms = input()
+
+print("-------------------------------------")
+
+Miles = float(Kms) / 1.60934
+
+Miles = round(Miles, 3 )
+
+print(f"{Kms} Km is { Miles } Miles")
